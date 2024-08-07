@@ -10,7 +10,7 @@ import mime from 'mime-types';
 import { fileURLToPath, pathToFileURL } from 'url';
 import mongoose from './db/database.js';
 import User from './db/handler.js';
-import { ssweb, Library, Ai, gpt4, PlayStore, mcpedllist, mcpedld, pixivSearch, nvidia, GoogleGemini, IGDLV2, NasaNews, youtubeDL, tiktokDL, instagramDL, pinterestDL, remini } from './lib/scraper.js';
+import { ssweb, Library, Ai, gpt4, PlayStore, mcpedllist, mcpedld, pixivsearch, nvidia, GoogleGemini, IGDLV2, NasaNews, youtubeDL, tiktokDL, instagramDL, pinterestDL, remini } from './lib/scraper.js';
 import { minl, plusl, claimDailyReward, claimWeeklyReward } from './db/limit.js';
 import { createRequire } from 'module';
 import nodemailer from 'nodemailer';
