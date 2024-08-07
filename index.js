@@ -326,6 +326,9 @@ app.get('/login', (req, res) => {
             background-color: darkblue;
         }
     </style>
+    <script src="
+https://cdn.jsdelivr.net/npm/google-recaptcha@1.1.0/google-recaptcha.min.js
+"></script>
 </head>
 <body>
     <h1><span class="al-rest">AL REST</span> - <span class="api">API</span></h1>
@@ -407,7 +410,9 @@ app.get('/signup', (req, res) => {
             background-color: darkblue;
         }
     </style>
-
+<script src="
+https://cdn.jsdelivr.net/npm/google-recaptcha@1.1.0/google-recaptcha.min.js
+"></script>
 </head>
 <body>
     <h1><span class="al-rest">AL REST</span> - <span class="api">API</span></h1>
