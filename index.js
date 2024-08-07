@@ -327,7 +327,6 @@ app.get('/login', (req, res) => {
         }
     </style>
     <script src='https://www.google.com/recaptcha/api.js'></script>
-"></script>
 </head>
 <body>
     <h1><span class="al-rest">AL REST</span> - <span class="api">API</span></h1>
