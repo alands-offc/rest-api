@@ -1,0 +1,47 @@
+{
+  "name": "REST API MD (ESM)",
+  "version": "0.0.4",
+  "description": "simple Rest - Api with register and login (ESM)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "wkwk"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "latest",
+    "cheerio": "^1.0.0-rc.12",
+    "connect-mongo": "latest",
+    "cookie-parser": "latest",
+    "crypto": "^1.0.1",
+    "dotenv": "latest",
+    "express": "latest",
+    "express-session": "latest",
+    "node-encryption": "latest",
+    "file-type": "^19.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.0",
+    "formdata-node": "^4.3.2",
+    "groq-sdk": "latest",
+    "jimp": "^0.16.13",
+    "mime-types": "^2.1.35",
+    "mongoose": "latest",
+    "n-digit-token": "latest",
+    "node-fetch": "^3.3.2",
+    "node-id3": "^0.2.3",
+    "node-webpmux": "^3.2.0",
+    "node-youtube-music": "^0.8.3",
+    "nodemailer": "latest",
+    "openai": "latest",
+    "pino": "^8.11.0",
+    "readable-stream": "^4.4.2",
+    "readline": "latest",
+    "uuid": "latest",
+    "yt-search": "latest",
+    "ytdl-core": "npm:@distube/ytdl-core@latest"
+  }
+}
